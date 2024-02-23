@@ -27,9 +27,9 @@ function Details() {
           <h1 className="charpage-name">{character.name}</h1>
           <img className="charpage-img" src={character.image} alt="character" />
           <div className="data-container">
-            <h2>Tipo:</h2>
+            <h2 className="details-prop">Tipo:</h2>
             <p>{character.type}</p>
-            <h2>Descricao:</h2>
+            <h2 className="details-prop">Descricao:</h2>
             <p>{character.description}</p>
             
           </div>

@@ -3,7 +3,7 @@
 }
 
 .cp-bg-img {
-
+  height: 100vh;
   background-image: url("https://static.wixstatic.com/media/cf6239_281e020a71824815a9a2daa43751bf69~mv2.jpg/v1/fill/w_480,h_719,al_c,lg_1,q_80,enc_auto/cf6239_281e020a71824815a9a2daa43751bf69~mv2.jpg");
 }
 
@@ -19,6 +19,7 @@
 
 .cp-opacity {
   padding: 40px;
+  height: 100vh;
   background: rgba(255, 255, 255, 0.267);
 }
 
@@ -48,8 +49,9 @@
 }
 
 .charpage-img {
-  height: 694px;
-  width: 520px;
+  
+  width: 100%;
+  aspect-ratio: 10/12;
   border: 3px solid rgb(0, 0, 0);
   border-radius: 20px;
 }
@@ -73,4 +75,33 @@
   border-radius: 20px;
   margin-top: 20px;
   border: 1px solid rgb(0, 0, 0)
+}
+
+/* .details-prop {
+  font-size: ;
+} */
+
+@media(max-width: 705px) {
+
+  .char-page-container {
+    width: 300px;
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 20px;
+  }
+
+  .charpage-name {
+    font-size: 24px;
+  }
+  
+  .details-prop {
+    font-size: 20px;
+  }
+
+  .charpage-img {
+  
+    
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+  }
 }
