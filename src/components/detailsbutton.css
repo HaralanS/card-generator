@@ -3,8 +3,9 @@
 }
 
 .cp-bg-img {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url("https://static.wixstatic.com/media/cf6239_281e020a71824815a9a2daa43751bf69~mv2.jpg/v1/fill/w_480,h_719,al_c,lg_1,q_80,enc_auto/cf6239_281e020a71824815a9a2daa43751bf69~mv2.jpg");
+  
 }
 
 .char-page-container {
@@ -19,7 +20,7 @@
 
 .cp-opacity {
   padding: 40px;
-  height: 100vh;
+  min-height: 100vh;
   background: rgba(255, 255, 255, 0.267);
 }
 
